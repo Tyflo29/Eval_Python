@@ -3,8 +3,9 @@ init(wrap = False)
 from colorama import Fore, Back, Style 
 from random import randrange
 
-
-mot1='parfum'
+nombrealéatoire= randrange(3)
+listemot=['crabes','crepis','crepes']
+mot1= listemot[nombrealéatoire]
 motDonner='bacfgd'
 motReserve=[]
 motReserve1=[]
