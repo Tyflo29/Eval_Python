@@ -1,8 +1,11 @@
 from colorama import init 
 init() 
 from colorama import Fore, Back, Style 
+from random import randrange
 
-mot1='crépis'
+nombreChoisie=randrange(3)
+listeDeMots=['crepis','crabe','parfum']
+mot1= listeDeMots[nombreChoisie]
 motDonner=''
 motDonner=input()
 motReserve=''
@@ -10,3 +13,4 @@ motReserve=''
 for i in range(0,6):
     if motDonner[i] in mot1:
         print(i)
+print(mot1)
